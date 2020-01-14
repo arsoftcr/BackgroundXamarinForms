@@ -11,10 +11,24 @@
     <Product>Xamarin Forms</Product>
     <PackageProjectUrl>https://github.com/arsoftcr/BackgroundXamarinForms</PackageProjectUrl>
     <RepositoryUrl>https://github.com/arsoftcr/BackgroundXamarinForms</RepositoryUrl>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <PackageIcon>about - Copy.jpg</PackageIcon>
+    <PackageIconUrl />
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.2.0.910310" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Pictures\about - Copy.jpg">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

@@ -50,3 +50,12 @@ C:\Users\rviquez\Source\Repos\BackgroundXamarinForms\BackgroundXamarinForms\bin\
 C:\Users\rviquez\Source\Repos\BackgroundXamarinForms\BackgroundXamarinForms\bin\Release\netstandard2.0\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
 C:\Users\rviquez\Source\Repos\BackgroundXamarinForms\BackgroundXamarinForms\bin\Release\netstandard2.0\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
 C:\Users\rviquez\Source\Repos\BackgroundXamarinForms\BackgroundXamarinForms\obj\Release\netstandard2.0\BackgroundXamarinForms.csproj.CopyComplete
+C:\Users\rix\Desktop\Backgounding\BackgroundXamarinForms\BackgroundXamarinForms\bin\Release\netstandard2.0\BackgroundXamarinForms.deps.json
+C:\Users\rix\Desktop\Backgounding\BackgroundXamarinForms\BackgroundXamarinForms\bin\Release\netstandard2.0\BackgroundXamarinForms.dll
+C:\Users\rix\Desktop\Backgounding\BackgroundXamarinForms\BackgroundXamarinForms\bin\Release\netstandard2.0\BackgroundXamarinForms.pdb
+C:\Users\rix\Desktop\Backgounding\BackgroundXamarinForms\BackgroundXamarinForms\obj\Release\netstandard2.0\BackgroundXamarinForms.csprojAssemblyReference.cache
+C:\Users\rix\Desktop\Backgounding\BackgroundXamarinForms\BackgroundXamarinForms\obj\Release\netstandard2.0\BackgroundXamarinForms.AssemblyInfoInputs.cache
+C:\Users\rix\Desktop\Backgounding\BackgroundXamarinForms\BackgroundXamarinForms\obj\Release\netstandard2.0\BackgroundXamarinForms.AssemblyInfo.cs
+C:\Users\rix\Desktop\Backgounding\BackgroundXamarinForms\BackgroundXamarinForms\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\rix\Desktop\Backgounding\BackgroundXamarinForms\BackgroundXamarinForms\obj\Release\netstandard2.0\BackgroundXamarinForms.dll
+C:\Users\rix\Desktop\Backgounding\BackgroundXamarinForms\BackgroundXamarinForms\obj\Release\netstandard2.0\BackgroundXamarinForms.pdb

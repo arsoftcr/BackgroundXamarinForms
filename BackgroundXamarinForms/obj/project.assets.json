@@ -450,11 +450,11 @@
   "project": {
     "version": "1.1.1",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rix\\source\\repos\\arsoftcr\\backgroundxamarin\\BackgroundXamarinForms\\BackgroundXamarinForms.csproj",
+      "projectUniqueName": "C:\\Users\\rix\\Desktop\\Backgounding\\BackgroundXamarinForms\\BackgroundXamarinForms\\BackgroundXamarinForms.csproj",
       "projectName": "BackgroundXamarinForms",
-      "projectPath": "C:\\Users\\rix\\source\\repos\\arsoftcr\\backgroundxamarin\\BackgroundXamarinForms\\BackgroundXamarinForms.csproj",
+      "projectPath": "C:\\Users\\rix\\Desktop\\Backgounding\\BackgroundXamarinForms\\BackgroundXamarinForms\\BackgroundXamarinForms.csproj",
       "packagesPath": "C:\\Users\\rix\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rix\\source\\repos\\arsoftcr\\backgroundxamarin\\BackgroundXamarinForms\\obj\\",
+      "outputPath": "C:\\Users\\rix\\Desktop\\Backgounding\\BackgroundXamarinForms\\BackgroundXamarinForms\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
