@@ -1,7 +1,7 @@
 # BackgroundXamarinForms
 Realizar tareas en segundo plano con xamarin forms
 
-Instale el paquete nuget de la siguiente dirección:
+Instale el paquete nuget en visual studio o por medio de consola : Install-Package BackgroundXamarinForms -Version 1.1.1
 
 Luego inicialize el plugin en cada plataforma, tanto en Android como en IOS de la siguiente manera:
 
