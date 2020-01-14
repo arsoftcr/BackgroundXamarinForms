@@ -5,7 +5,7 @@ Instale el paquete nuget en visual studio o por medio de consola : Install-Packa
 
 Luego inicialize el plugin en cada plataforma, tanto en Android como en IOS de la siguiente manera:
 
-Agregue las siguientes 2 clases tanto en el proyecto de Android 
+Agregue las siguientes 2 clases  en el proyecto de Android 
 
 
       public class BackgroundAggregator
