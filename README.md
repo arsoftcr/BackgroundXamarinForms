@@ -5,7 +5,7 @@ Instale el paquete nuget en visual studio o por medio de consola : Install-Packa
 
 Luego inicialize el plugin en cada plataforma, tanto en Android como en IOS de la siguiente manera:
 
-Agregue las siguientes 2 clases tanto en el proyecto de Android como en el proyecto de IOS:
+Agregue las siguientes 2 clases tanto en el proyecto de Android 
 
 
       public class BackgroundAggregator
@@ -55,6 +55,54 @@ Agregue las siguientes 2 clases tanto en el proyecto de Android como en el proye
             
         }
     }
+    
+Agregue las siguientes 2 clases en el proyecto de IOS:
+
+            public class BackgroundService
+                {
+                    private static nint _taskId;
+                    private static BackgroundService _instance;
+                    private static bool _isRunning;
+
+                    static BackgroundService()
+                    {
+                    }
+
+                    private BackgroundService()
+                    {
+                    }
+
+
+                    public static BackgroundService Instance { get; } =
+                        _instance ?? (_instance = new BackgroundService());
+
+
+                    public void Start()
+                    {
+                        if (_isRunning) return;
+
+                        //We only have 3 minutes in the background service as per iOS 9
+                        _taskId = UIApplication.SharedApplication.BeginBackgroundTask(nameof(StartLongRunningTask), Stop);
+                        BackgroundAggregatorService.Instance.Start();
+
+                        _isRunning = true;
+                    }
+
+                    public void Stop()
+                    {
+                    }
+                }
+                
+                
+                
+                 public class BackgroundAggregator
+                  {
+                    public static void Init(FormsApplicationDelegate appDelegate)
+                    {
+                        MessagingCenter.Subscribe<StartLongRunningTask>(appDelegate, nameof(StartLongRunningTask),
+                            message => { BackgroundService.Instance.Start(); });
+                    }
+                  }
     
     
 Luego de eso agregue la siguiente línea en el MainActivity.cs del proyecto de Android y en el AppDelegate.cs del proyecto de IOS:
