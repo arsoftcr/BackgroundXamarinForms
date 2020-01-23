@@ -145,4 +145,5 @@ Luego de esto implemente la interfaz en la clase   que contiene la tarea que des
         }
     
     
+Nota: Cuando esta en modo debug, corra la aplicación en el dispositivo y una vez instalada. Vuelva a abrir y cerrar la app para que la reconozca el dispositivo.
     
